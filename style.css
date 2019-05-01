@@ -1,0 +1,99 @@
+*{
+	transition: all .1s ease-in;
+}
+
+body{
+	margin: 0;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #fff;
+	background-color: #3096cb;
+	border: 15px solid #247ba5;
+	height: 100vh;
+}
+
+h1{
+	font-size: 22px;
+	padding: 7px 0;
+}
+
+ul{
+	list-style-type: none;
+	font-size: 0px;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	height: 110px;
+	font-size: 19px;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	padding-top: 3%;
+	opacity: 1;
+}
+
+.list-town:hover li{
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.list-town li:hover{
+	opacity: 1;
+	z-index: 1;
+}
+/*
+li:hover{
+	opacity: 1;
+	z-index: 100;
+}*/
+
+span{
+	display: block;
+	padding: 10px 0;
+	opacity: 0.7;
+}
+
+.container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.list .container{
+	background-color: #FFF;
+}
+
+.list-town{
+	border: 2px solid #fff;
+	padding: 0;
+	margin: 0;
+}
+
+.list-town-1 li:first-child{
+	width: 50%;
+}
+
+.list-town-3 li:nth-child(2){
+	width: 50%;
+}
+
+.list-town-4 li{
+	width: 100%;
+}
+
+i{
+	font-size: 28px;
+	padding: 0 7px;
+}
+
+h1 i{
+	font-size: 22px;
+}
+
+footer p{
+	margin: 20px 0;
+	font-size: 17px;
+	font-weight: 500;
+}
